@@ -1,0 +1,54 @@
+/* 共通スタイルは外に書く */
+.p-menu{
+  width: 100%;
+  background-color: #72b2ad;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+}
+
+.p-menu__buffer{
+  width: 20%;
+  background-color: #ffffff;
+}
+
+.p-menuNav{
+  width: 80%;
+  padding: 20px 50px;
+}
+
+.p-menuList{
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+}
+
+.p-menuItem{
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.p-menuItem__link{
+  color: #ffffff;
+}
+
+.p-menuItem__link--sub{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.6rem;
+  color: #eae7e7;
+}
+
+@media screen and (min-width: 796px) { /* pc用スタイル */
+
+
+}
+
+@media screen and (max-width: 795px) { /* sp用スタイル */
+
+
+}

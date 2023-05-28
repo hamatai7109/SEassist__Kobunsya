@@ -1,0 +1,74 @@
+/* 共通スタイルは外に書く */
+.p-message{
+  margin-top: 200px;
+  padding: 30px 30px 250px 30px;
+  background-color: #EEEFEE;
+  position: relative;
+}
+
+.p-message__main{
+  margin-top: 80px;
+  text-align: center;
+}
+
+.p-message__main--text,
+.p-message__main--name,
+.p-message__main--button{
+  margin-top: 30px;
+}
+
+.p-message__main--catch{
+  font-size: 1.6rem;
+}
+
+.p-message__main--text{
+  line-height: 2.0;
+}
+
+.p-message__main--name span{
+  margin-left: 30px;
+}
+
+.p-message__main--button{
+  padding: 10px 30px;
+  border: 1px solid #1CA097;
+  transition: all 0.2s linear;
+}
+
+.p-message__main--button:hover{
+  background-color: #1CA097;
+  border: none;
+  color: #ffffff;
+}
+
+.p-message__gallery{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  position: absolute;
+  width: 100%;
+  bottom: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.p-message__galleryItem{
+  width: calc(100% / 3);
+}
+
+.p-message__gallery--img{
+  height: 250px;
+}
+
+
+@media screen and (min-width: 796px) { /* pc用スタイル */
+
+
+}
+
+@media screen and (max-width: 795px) { /* sp用スタイル */
+
+
+}

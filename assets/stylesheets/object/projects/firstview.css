@@ -1,0 +1,50 @@
+/* 共通スタイルは外に書く */
+.p-firstview__bg{
+  position: relative;
+  overflow: hidden;
+}
+
+.p-firstview__bg--lay{
+  background-color: #72b2ad;
+  width: 100%;
+  height: 70vh;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+
+.p-firstview__imgBox{
+  transform: translateX(-5%);
+  position: relative;
+}
+
+.p-firstview__bg--img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.p-firstview__bg--text{
+  letter-spacing: 0.7rem;
+  line-height: 2rem;
+  color: #ffffff;
+  position: absolute;
+  bottom: 10%;
+  left: 18%;
+}
+
+.p-firstview__bg--text span{
+  display: block;
+  font-size: 1.5rem;
+  padding: 20px;
+  background-color: #72b2ad;
+}
+
+@media screen and (min-width: 796px) { /* pc用スタイル */
+
+
+}
+
+@media screen and (max-width: 795px) { /* sp用スタイル */
+
+
+}

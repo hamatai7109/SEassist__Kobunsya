@@ -1,0 +1,39 @@
+/* 共通スタイルは外に書く */
+.p-sectionHead{
+  text-align: center;
+  letter-spacing: 0.5rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.p-sectionHead::after{
+  content: "";
+  width: 30%;
+  height: 3px;
+  background-color: #1CA097;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.p-sectionHead__title{
+  font-size: 4.0rem;
+}
+
+.p-sectionHead__text{
+  font-size: 1rem;
+}
+
+
+@media screen and (min-width: 796px) { /* pc用スタイル */
+
+
+}
+
+@media screen and (max-width: 795px) { /* sp用スタイル */
+
+
+}
