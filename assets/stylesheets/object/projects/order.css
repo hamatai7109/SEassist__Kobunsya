@@ -18,7 +18,7 @@
 
 .p-order__item--title{
   font-size: 2.0rem;
-  color: #1CA097;
+  color: #474AFF;
 }
 
 .p-order__item--title span{
@@ -43,7 +43,7 @@
 }
 
 .p-order__imgBox--shadow{
-  background-color: #1CA097;
+  background-color: #16226B;
   width: 100%;
   height: 100%;
   position: absolute;

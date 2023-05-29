@@ -32,12 +32,12 @@
 
 .p-serviceItem:nth-of-type(odd)
 .p-serviceItem__info{
-  border-left: 3px solid  #1CA097;
+  border-left: 3px solid  #16226B;
 }
 
 .p-serviceItem:nth-of-type(even)
 .p-serviceItem__info{
-  border-right: 3px solid  #1CA097;
+  border-right: 3px solid  #16226B;
 }
 
 .p-serviceItem__info--index{
@@ -60,7 +60,7 @@
   content: "";
   width: 100%;
   height: 2px;
-  background-color: #1CA097;
+  background-color: #16226B;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -72,7 +72,7 @@
 
 .p-serviceItem__info--subtitle{
   font-size: 1.2rem;
-  color: #1CA097;
+  color: #16226B;
 }
 
 .p-serviceItem__info--text{
@@ -85,13 +85,13 @@
   margin-top: 30px;
   margin-left: auto;
   padding: 10px 30px;
-  border: 1px solid #1CA097;
+  border: 1px solid #16226B;
   transition: all 0.3s linear;
   position: relative;
 }
 
 .p-serviceItem__info--button:hover{
-  background-color: #1CA097;
+  background-color: #16226B;
   border: none;
   color: #ffffff;
 }
