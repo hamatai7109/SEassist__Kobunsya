@@ -31,12 +31,12 @@
 
 .p-message__main--button{
   padding: 10px 30px;
-  border: 1px solid #1CA097;
+  border: 1px solid #FFC97E;
   transition: all 0.2s linear;
 }
 
 .p-message__main--button:hover{
-  background-color: #1CA097;
+  background-color: #FFC97E;
   border: none;
   color: #ffffff;
 }
