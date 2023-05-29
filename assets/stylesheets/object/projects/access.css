@@ -1,0 +1,71 @@
+/* 共通スタイルは外に書く */
+.p-access{
+  margin-top: 200px;
+  padding: 30px;
+  background-color: #EEEEEE;
+  position: relative;
+}
+
+.p-access__wrapper{
+  margin-top: 80px;
+}
+
+.p-access__head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.p-access__head--logo{
+  height: 70px;
+}
+
+.p-access__head--title{
+  font-size: 2.0rem;
+}
+
+.p-access__ItemBox{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.p-access__item--title{
+  display: inline;
+  font-size: 1.5rem;
+  position: relative;
+}
+
+.p-access__item--title::after{
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: #1CA097;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.p-access__item--address{
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.p-access__item--map{
+  margin-top: 20px;
+  width:400px;
+  height:300px;
+  border:none;
+}
+
+@media screen and (min-width: 796px) { /* pc用スタイル */
+
+
+}
+
+@media screen and (max-width: 795px) { /* sp用スタイル */
+
+
+}
