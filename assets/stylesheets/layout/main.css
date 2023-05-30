@@ -1,11 +1,9 @@
 /* 共通スタイルは外に書く */
-.l-main{
-  width: 90%;
-  margin-left: 10%;
-}
-
 @media screen and (min-width: 796px) { /* pc用スタイル */
-
+  .l-main{
+    width: 90%;
+    margin-left: 10%;
+  }
 
 }
 

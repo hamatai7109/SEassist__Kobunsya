@@ -25,11 +25,8 @@
   font-size: 2.0rem;
 }
 
-.p-access__ItemBox{
+.p-access__ItemBox{    
   margin-top: 50px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
 .p-access__item--title{
@@ -61,11 +58,19 @@
 }
 
 @media screen and (min-width: 796px) { /* pc用スタイル */
-
-
+  .p-access__ItemBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 795px) { /* sp用スタイル */
+  .p-access__ItemBox{
+    text-align: center;
+  }
 
-
+  .p-access__item:not(:first-of-type){
+    margin-top: 30px;
+  }
 }

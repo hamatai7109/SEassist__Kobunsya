@@ -7,13 +7,6 @@
 
 .p-order__wrapper{
   margin-top: 100px;
-  display: flex;
-  justify-content: space-around;
-  gap: 50px;
-}
-
-.p-order__item{
-  width: 40%;
 }
 
 .p-order__item--title{
@@ -35,7 +28,6 @@
   opacity: 0.7;
 }
 
-
 .p-order__imgBox--img{
   height: 250px;
   width: 100%;
@@ -53,11 +45,19 @@
 }
 
 @media screen and (min-width: 796px) { /* pc用スタイル */
+  .p-order__wrapper{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+  }
 
-
+  .p-order__item{
+    width: 40%;
+  }
 }
 
 @media screen and (max-width: 795px) { /* sp用スタイル */
-
-
+  .p-order__item:not(:first-of-type){
+    margin-top: 60px;
+  }
 }

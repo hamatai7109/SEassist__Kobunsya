@@ -1,7 +1,5 @@
 /* 共通スタイルは外に書く */
 .p-footer{
-  width: 90%;
-  margin-left: 10%;
   padding: 30px;
   background-color: #16226B;
   display: flex;
@@ -11,12 +9,10 @@
 
 .p-footerMenu__list{
   display: flex;
-  gap: 20px;
 }
 
 .p-footerMenu__listItem:not(:last-of-type)::after{
   content: "/";
-  margin-left: 20px;
   color: #ffffff;
   font-weight: bold;
 }
@@ -27,11 +23,31 @@
 }
 
 @media screen and (min-width: 796px) { /* pc用スタイル */
+  .p-footer{
+    width: 90%;
+    margin-left: 10%;
+  }
 
+  .p-footerMenu__list{
+    gap: 20px;
+  }
 
+  .p-footerMenu__listItem:not(:last-of-type)::after{
+    margin-left: 20px;
+  }
 }
 
 @media screen and (max-width: 795px) { /* sp用スタイル */
+  .p-footerMenu__list{
+    gap: 10px;
+  }
 
+  .p-footerMenu__listItem:not(:last-of-type)::after{
+    margin-left: 10px;
+  }
 
+  .p-footerMenu__listItem--link,
+  .p-footer__copy--text{
+    font-size: 0.7rem;
+  }
 }

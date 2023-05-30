@@ -1,7 +1,6 @@
 /* 共通スタイルは外に書く */
 .p-message{
   margin-top: 200px;
-  padding: 30px 30px 250px 30px;
   background-color: #EEEFEE;
   position: relative;
 }
@@ -58,17 +57,22 @@
   width: calc(100% / 3);
 }
 
-.p-message__gallery--img{
-  height: 250px;
-}
-
-
 @media screen and (min-width: 796px) { /* pc用スタイル */
+  .p-message{
+    padding: 30px 30px 250px 30px;
+  }
 
-
+  .p-message__gallery--img{
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 795px) { /* sp用スタイル */
+  .p-message__gallery--img{
+    height: 100px;
+  }
 
-
+  .p-message{
+    padding: 30px 30px 100px 30px;
+  }
 }

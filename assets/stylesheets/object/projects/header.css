@@ -1,76 +1,73 @@
 /* 共通スタイルは外に書く */
-.p-header{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 10%;
-  height: 100vh;
-  padding: 10px;
-  background-color: #ffffff;
-  z-index: 999;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.p-header__inner{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
-}
-
-.p-header__logo{
-  width: 60%;
-}
-
-.p-header__title{
-  -ms-writing-mode: tb-rl;
-  writing-mode: vertical-rl;
-}
-
-.p-header__title--text{
-  font-size: 1.8rem;
-}
-
-.p-header__button{
-  text-align: center;
-}
-
-.p-header__button--circle{
-  height: 30px;
-  padding: 30px;
-  border-radius: 30px;
-  border: none;
-  cursor: pointer;
-  background-color: #16226B;
-  position: relative;
-}
-
-.p-header__button--triangle{
-  font-size: 2rem;
-  font-weight: bold;
-  color: #ffffff;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-}
-
-.p-header__button--text{
-  margin-top: 5px;
-  font-size: 1.1rem;
-  font-weight: bold;
-  color: #16226B;
-}
-
 @media screen and (min-width: 796px) { /* pc用スタイル */
+  .p-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 100vh;
+    padding: 10px;
+    background-color: #ffffff;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
 
-
+  .p-header__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .p-header__logo{
+    width: 60%;
+  }
+  
+  .p-header__title{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+  }
+  
+  .p-header__title--text{
+    font-size: 1.8rem;
+  }
+  
+  .p-header__button{
+    text-align: center;
+  }
+  
+  .p-header__button--circle{
+    height: 30px;
+    padding: 30px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #16226B;
+    position: relative;
+  }
+  
+  .p-header__button--triangle{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  
+  .p-header__button--text{
+    margin-top: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #16226B;
+  }
 }
-
 @media screen and (max-width: 795px) { /* sp用スタイル */
-
-
+.p-header{
+  display: none;
+}
 }

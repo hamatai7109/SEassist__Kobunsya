@@ -27,9 +27,10 @@
       </div>
     </header>
     <div class="p-menu">
+      <div class="p-menu__overlay" id="jsi-overlay"></div>
       <div class="p-menu__buffer"></div>
       <!-- グローバルメニュー -->
-      <nav class="p-menuNav">
+      <nav class="p-menuNav" id="jsi-menu">
         <ul class="p-menuList">
           <li class="p-menuItem"><a href="#" class="p-menuItem__link">ホーム</a><span class="p-menuItem__link--sub">HOME</span></li>
           <li class="p-menuItem"><a href="#" class="p-menuItem__link">会社概要</a><span class="p-menuItem__link--sub">COMPANY</span></li>
@@ -49,7 +50,8 @@
     <div class="p-firstview__bg">
       <div class="p-firstview__bg--lay"></div>
       <div class="p-firstview__imgBox">
-        <img src="assets/images/common/building2.jpg" alt="メイン画像" class="p-firstview__bg--img">
+        <img src="assets/images/common/building2.jpg" alt="メイン画像" class="p-firstview__bg--img u-hidden-sp">
+        <img src="assets/images/common/building1.jpg" alt="メイン画像" class="p-firstview__bg--img u-hidden-pc">
         <h2 class="p-firstview__bg--text">
           <span>用意して頂いたキャッチコピーを</span><br>
           <span>このように2行で掲載する予定です。</span>
@@ -137,7 +139,7 @@
       <section class="p-order">
         <div class="p-sectionHead">
           <h2 class="p-sectionHead__title">ORDER</h2>
-          <div class="p-sectionHead__text">注文の流れ</div>
+          <div class="p-sectionHead__text">ご注文の流れ</div>
         </div>
         <div class="p-order__wrapper">
           <div class="p-order__item">
@@ -195,5 +197,6 @@
       <p class="p-footer__copy--text">&copy;2023 ドメイン名.co.jp</p>
     </div>
   </footer>
+  <script src="assets/javascripts/lib/hamburger.js" type="text/javascript"></script>
 </body>
 </html>
