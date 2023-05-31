@@ -11,6 +11,14 @@
   display: flex;
 }
 
+.p-footerMenu__listItem:hover{
+  transition: all 0.3s linear;
+}
+
+.p-footerMenu__listItem:hover{
+  opacity: 0.7;
+}
+
 .p-footerMenu__listItem:not(:last-of-type)::after{
   content: "/";
   color: #ffffff;

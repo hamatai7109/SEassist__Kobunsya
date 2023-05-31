@@ -1,11 +1,12 @@
 /* 共通スタイルは外に書く */
 .p-menu{
   width: 100%;
-  background-color: #16226B;
+  /* background-color: #16226B; */
+  background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 998;
+  z-index: 997;
   display: flex;
 }
 
@@ -14,8 +15,14 @@
   padding-bottom: 15px;
 }
 
+.p-menuItem:hover
+.p-menuItem__link{
+  opacity: 0.7;
+}
+
 .p-menuItem__link{
   color: #ffffff;
+  transition: all 0.3s linear;
 }
 
 .p-menuItem__link--sub{
@@ -24,6 +31,7 @@
   left: 50%;
   transform: translateX(-50%);
   font-size: 0.6rem;
+  transition: all 0.3s linear;
 }
 
 @media screen and (min-width: 796px) { /* pc用スタイル */

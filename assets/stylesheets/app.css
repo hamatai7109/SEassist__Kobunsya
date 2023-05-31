@@ -19,12 +19,13 @@
 /*// -----------------------------------------------------------------
 // Component
 // -----------------------------------------------------------------*/
-
+@import 'object/components/animation.css';
 
 /*// -----------------------------------------------------------------
 // Project
 // -----------------------------------------------------------------*/
 
+@import 'object/projects/load.css';
 @import 'object/projects/sectionHead.css';
 @import 'object/projects/firstview.css';
 @import 'object/projects/header.css';
