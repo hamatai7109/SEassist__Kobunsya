@@ -65,6 +65,10 @@
     position: relative;
   }
 
+  .p-access__item{
+    width: 40%;
+  }
+
   .p-access__item:not(:first-of-type)::before{
     content: "";
     width: 0.5px;

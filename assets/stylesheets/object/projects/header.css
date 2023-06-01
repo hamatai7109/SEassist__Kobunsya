@@ -51,7 +51,8 @@
     border-radius: 30px;
     border: none;
     cursor: pointer;
-    background-color: #16226B;
+    /* background-color: #16226B; */
+    background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
     position: relative;
     transition: all 0.3s linear;
   }

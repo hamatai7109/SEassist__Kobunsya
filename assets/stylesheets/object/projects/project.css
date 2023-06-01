@@ -1,0 +1,125 @@
+/* 共通スタイルは外に書く */
+.p-project{
+  position: relative;
+  margin-top: 200px;
+  padding-top: 30px;
+}
+
+.p-project__wrapper{
+  margin-top: 100px;
+}
+
+.p-project__item--img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.p-project__item{
+  position: relative;
+}
+
+.p-project__titleBox{
+  margin-top: 150px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 2.5rem;
+  position: relative;
+}
+
+.p-project__titleBox::before{
+  content: "";
+  width: 15%;
+  height: 1px;
+  background-color: #16226B;
+  top: -75px;
+  left: 0;
+  position: absolute;
+}
+
+.p-project__item--index{
+  position: relative;
+}
+
+.p-project__item--index::after{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #16226B;
+  bottom: 0;
+  left: 0;
+}
+
+.p-project__item--subtitle{
+  margin-top: 5px;
+  font-size: 1.4rem;
+}
+
+.p-project__item--headline{
+  font-size: 1.4rem;
+  margin-top: 30px;
+}
+
+.p-project__detailBox{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.p-project__detail{
+  text-align: center;
+  width: 25%;
+  padding: 10px;
+}
+
+.p-project__detail--icon{
+  margin: 0 auto;
+  background-color: #16226B;
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  position: relative;
+}
+
+.icon{
+  font-size: 1.5rem;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.p-project__detail--title{
+  margin-top: 10px;
+}
+
+.p-project__buttonBox{
+  margin: 70px 0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.p-project__button{
+  padding: 20px;
+  border: 1px solid #16226B;
+  border-radius: 20px;
+  transition: all 0.3s linear;
+}
+.p-project__buttonBox:hover
+.p-project__button{
+  background-color: #16226B;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 796px) { /* pc用スタイル */
+
+
+}
+
+@media screen and (max-width: 795px) { /* sp用スタイル */
+
+
+}
