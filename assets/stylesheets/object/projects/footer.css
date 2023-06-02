@@ -2,9 +2,6 @@
 .p-footer{
   padding: 30px;
   background-color: #16226B;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .p-footerMenu__list{
@@ -34,6 +31,9 @@
   .p-footer{
     width: 90%;
     margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
   .p-footerMenu__list{
@@ -46,7 +46,12 @@
 }
 
 @media screen and (max-width: 795px) { /* sp用スタイル */
+  .p-footer{
+    text-align: center;
+  }
+
   .p-footerMenu__list{
+    justify-content: center;
     gap: 10px;
   }
 
@@ -54,8 +59,12 @@
     margin-left: 10px;
   }
 
+  .p-footer__copy--text{
+    margin-top: 8px;
+  }
+
   .p-footerMenu__listItem--link,
   .p-footer__copy--text{
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 }

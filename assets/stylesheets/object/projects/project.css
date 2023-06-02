@@ -11,7 +11,6 @@
 
 .p-project__item--img{
   width: 100%;
-  height: 400px;
   object-fit: cover;
 }
 
@@ -24,7 +23,6 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  font-size: 2.5rem;
   position: relative;
 }
 
@@ -54,11 +52,9 @@
 
 .p-project__item--subtitle{
   margin-top: 5px;
-  font-size: 1.4rem;
 }
 
 .p-project__item--headline{
-  font-size: 1.4rem;
   margin-top: 30px;
 }
 
@@ -70,21 +66,16 @@
 
 .p-project__detail{
   text-align: center;
-  width: 25%;
   padding: 10px;
 }
 
 .p-project__detail--icon{
   margin: 0 auto;
   background-color: #16226B;
-  width: 70px;
-  height: 70px;
-  border-radius: 70px;
   position: relative;
 }
 
 .icon{
-  font-size: 1.5rem;
   color: #ffffff;
   position: absolute;
   top: 50%;
@@ -96,6 +87,20 @@
   margin-top: 10px;
 }
 
+.p-project__option{
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+.p-project__pattern{
+  text-align: center;
+}
+
+.p-project__info{
+  margin-left: 30px;
+}
+
 .p-project__buttonBox{
   margin: 70px 0;
   text-align: center;
@@ -103,11 +108,10 @@
 }
 
 .p-project__button{
-  padding: 20px;
   border: 1px solid #16226B;
-  border-radius: 20px;
   transition: all 0.3s linear;
 }
+
 .p-project__buttonBox:hover
 .p-project__button{
   background-color: #16226B;
@@ -115,11 +119,120 @@
 }
 
 @media screen and (min-width: 796px) { /* pc用スタイル */
+  .p-project__item--img{
+    height: 400px;
+  }
 
+  .p-project__titleBox{
+    font-size: 2.5rem;
+  }
 
+  .p-project__item--subtitle{
+    font-size: 1.4rem;
+  }
+
+  .p-project__item--headline{
+    font-size: 1.4rem;
+  }
+
+  .p-project__detail{
+    width: 25%;
+  }
+
+  .p-project__detail--icon{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+  }
+  
+  .icon{
+    font-size: 2.0rem;
+  }
+
+  .p-project__detail--title,
+  .p-project__detail--subtitle{
+    font-size: 1.2rem;
+  }
+
+  .p-project__option{
+    width: 95%;
+    display: flex;
+  }
+
+  .p-project__pattern{
+    width: 20%;
+    border-right: 1px solid #000000;
+  }
+
+  .p-project__info{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .p-project__info--text{
+    font-size: 1.3rem;
+  }
+
+  .p-project__button{
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (max-width: 795px) { /* sp用スタイル */
+  .p-project__item--img{
+    height: 200px;
+  }
 
+  .p-project__item{
+    padding: 40px;
+  }
 
+  .p-project__titleBox{
+    font-size: 2.0rem;
+  }
+
+  .p-project__item--subtitle{
+    font-size: 1.2rem;
+  }
+
+  .p-project__item--headline{
+    font-size: 1.0rem;
+  }
+
+  .p-project__detail{
+    width: 50%;
+  }
+
+  .p-project__detail--icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  
+  .icon{
+    font-size: 1.0rem;
+  }
+
+  .p-project__detail--title,
+  .p-project__detail--subtitle{
+    font-size: 0.9rem;
+  }
+
+  .p-project__info--text{
+    font-size: 0.9rem;
+  }
+
+  .p-project__info--text:not(:first-of-type){
+    margin-top: 10px;
+  }
+
+  .p-project__button{
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1.0rem;
+  }
 }
