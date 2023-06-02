@@ -37,6 +37,9 @@
 @import 'object/projects/footer.css';
 @import 'object/projects/company.css';
 @import 'object/projects/project.css';
+@import 'object/projects/flow.css';
+@import 'object/projects/works.css';
+@import 'object/projects/contact.css';
 
 /*// -----------------------------------------------------------------
 // Utility

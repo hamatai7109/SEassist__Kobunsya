@@ -1,0 +1,124 @@
+/* 共通スタイルは外に書く */
+.p-flow{
+  margin-top: 150px;
+  padding: 30px;
+}
+
+.p-flow__item{
+  position: relative;
+}
+
+.p-flow__item:not(:last-of-type):after{
+  content: "";
+  width: 10px;
+  background-color: #eeeeee;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 100%);
+}
+
+.p-flow__item:not(:last-of-type):before{
+  content: "";
+  width: 40px;
+  height: 40px;
+  border-top: 10px solid #eeeeee;
+  border-right: 10px solid #eeeeee;
+  border-radius: 3px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) rotate(135deg);
+}
+
+.p-flow__step{
+  position: relative;
+}
+
+.p-flow__stepInfo{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  background-color: #16226B;
+  position: absolute;
+  top: -5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.p-flow__step--index{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+}
+
+.p-flow__info{
+  padding: 20px;
+}
+
+.p-flow__info--title{
+  padding-left: 20px;
+  position: relative;
+}
+
+.p-flow__info--title::before{
+  content: "";
+  width: 4px;
+  height: 100%;
+  background-color: #16226B;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.p-flow__info--text{
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 796px) { /* pc用スタイル */
+  .p-flow__item{
+    display: flex;
+  }
+
+  .p-flow__step{
+    width: 30%;
+  }
+
+  .p-flow__info{
+    width: 70%;
+  }
+
+  .p-flow__item:not(:last-of-type):after{
+    height: 100px;
+  }
+
+  .p-flow__item:not(:last-of-type):before{
+    bottom: -100px;
+  }
+
+  .p-flow__item:not(:first-of-type){
+    margin-top: 150px;
+  }
+}
+
+@media screen and (max-width: 795px) { /* sp用スタイル */
+  .p-flow__info{
+    margin-top: 40px;
+  }
+
+  .p-flow__item:not(:last-of-type):after{
+    height: 60px;
+  }
+
+  .p-flow__item:not(:last-of-type):before{
+    bottom: -65px;
+  }
+
+  .p-flow__item:not(:first-of-type){
+    margin-top: 180px;
+  }
+}

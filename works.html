@@ -15,15 +15,6 @@
   <link rel="stylesheet" href="assets/stylesheets/app.css">
 </head>
 <body>
-  <div class="p-load" id="jsi-load">
-    <div class="p-load__wrapper">
-      <img src="assets/images/common/icon2.png" alt="会社ロゴ" class="p-load__logo" id="jsi-load__logo">
-      <div class="p-load__circle one"></div>
-      <div class="p-load__circle two"></div>
-      <div class="p-load__circle three"></div>
-      <div class="p-load__circle four"></div>
-    </div>
-  </div>
   <section class="p-firstview" id="firstview">
     <header class="p-header">
       <div class="p-header__inner">
@@ -41,10 +32,10 @@
       <!-- グローバルメニュー -->
       <nav class="p-menuNav" id="jsi-menu">
         <ul class="p-menuList">
-          <li class="p-menuItem"><a href="#firstview" class="p-menuItem__link">ホーム</a><span class="p-menuItem__link--sub">HOME</span></li>
-          <li class="p-menuItem"><a href="#message" class="p-menuItem__link">会社概要</a><span class="p-menuItem__link--sub">COMPANY</span></li>
-          <li class="p-menuItem"><a href="#service" class="p-menuItem__link">事業内容</a><span class="p-menuItem__link--sub">SERVICE</span></li>
-          <li class="p-menuItem"><a href="#order" class="p-menuItem__link">ご注文の流れ</a><span class="p-menuItem__link--sub">ORDER</span></li>
+          <li class="p-menuItem"><a href="index.html" class="p-menuItem__link">ホーム</a><span class="p-menuItem__link--sub">HOME</span></li>
+          <li class="p-menuItem"><a href="company.html" class="p-menuItem__link">会社概要</a><span class="p-menuItem__link--sub">COMPANY</span></li>
+          <li class="p-menuItem"><a href="service.html" class="p-menuItem__link">事業内容</a><span class="p-menuItem__link--sub">SERVICE</span></li>
+          <li class="p-menuItem"><a href="order.html" class="p-menuItem__link">ご注文の流れ</a><span class="p-menuItem__link--sub">ORDER</span></li>
         </ul>
       </nav>
       <!-- ハンバーガーメニュー -->
@@ -56,128 +47,64 @@
         </button>
       </div>
     </div>
-    <div class="p-firstview__bg">
-      <div class="p-firstview__bg--lay"></div>
-      <div class="p-firstview__imgBox">
-        <img src="assets/images/common/building2.jpg" alt="ファーストビュー" class="p-firstview__bg--img u-hidden-sp">
-        <img src="assets/images/common/building1.jpg" alt="ファーストビュー" class="p-firstview__bg--img u-hidden-pc">
-        <h2 class="p-firstview__bg--text">
-          <span>用意して頂いたキャッチコピーを</span><br>
-          <span>このように2行で掲載する予定です。</span>
-        </h2>
-      </div>
-    </div>
   </section>
   <main>
     <div class="l-main">
-      <section class="p-message" id="message">
-        <div class="p-sectionHead jsi-slideIn">
-          <h2 class="p-sectionHead__title">MESSAGE</h2>
-          <div class="p-sectionHead__text">代表挨拶</div>
+      <section class="p-works">
+        <div class="p-sectionHead">
+          <h2 class="p-sectionHead__title">WORKS</h2>
+          <div class="p-sectionHead__text">実績一覧・作品紹介</div>
         </div>
-        <div class="p-message__main">
-          <h3 class="p-message__main--catch jsi-fadeIn">&#12300;品質の向上と能率化に努め、お客様の信頼と満足を大切にします。&#12301;</h3>
-          <p class="p-message__main--text jsi-fadeIn">浩文社では従来の印刷を大切にしながらこれからは新しい形の印刷会社として、<br>
-            クライアント様のニーズに応えられる会社になりたいと考えております。<br>
-            サステナブルな社会に貢献し、関わる全ての皆様の発展に繋がる製品とサービスを提供致します。
-          </p>
-          <p class="p-message__main--name jsi-fadeIn">代表取締役<span>宮本 朋枝<span></p>
-          <button class="p-message__main--button jsi-fadeIn">
-            <a href="#" class="p-message__main--link">浩文社について詳しく見る</a>
-          </button>
-        </div>
-        <div class="p-message__gallery">
-          <div class="p-galleryItem"><img src="assets/images/common/dummy1.jpg" alt="会社の様子" class="p-message__gallery--img"></div>
-          <div class="p-galleryItem"><img src="assets/images/common/dummy4.jpg" alt="会社の様子" class="p-message__gallery--img"></div>
-          <div class="p-galleryItem"><img src="assets/images/common/dummy3.jpg" alt="会社の様子" class="p-message__gallery--img"></div>
-        </div>
-      </section>
-      <section class="p-service" id="service">
-        <div class="p-sectionHead jsi-slideIn">
-          <h2 class="p-sectionHead__title">SERVICE</h2>
-          <div class="p-sectionHead__text">事業内容</div>
-        </div>
-        <div class="p-service__wrapper">
-          <div class="p-serviceItem jsi-fadeIn">
-            <div class="p-serviceItem__info">
-                <p class="p-serviceItem__info--index">01</p>
-                <h3 class="p-serviceItem__info--title">印刷事業</h3>
-                <p class="p-serviceItem__info--subtitle">Printing Service</p>
-                <p class="p-serviceItem__info--text">
-                  一般的な印刷物から特殊な印刷物まで対応できます。<br>
-                  オンラインでの打ち合わせをし、そこからの受注も可能です。
-                </p>
-                <button class="p-serviceItem__info--button"><a href="#" class="p-serviceItem__info--link">READ MORE</a></button>
-            </div>
-            <div class="p-serviceItem__imgBox">
-              <img src="assets/images/common/print.jpg" alt="印刷事業" class="p-serviceItem__imgBox--img">
-            </div>
+        <div class="p-works__wrapper">
+          <div class="p-works__item">
+            <img src="assets/images/common/works.jpg" alt="作品1" class="p-works__item--img">
+            <h2 class="p-works__item--title">作品1</h2>
           </div>
-          <div class="p-serviceItem jsi-fadeIn">
-            <div class="p-serviceItem__info">
-                <p class="p-serviceItem__info--index">02</p>
-                <h3 class="p-serviceItem__info--title">営業代理店事業</h3>
-                <p class="p-serviceItem__info--subtitle">Sales Agent Service</p>
-                <p class="p-serviceItem__info--text">
-                  サッカースクール運営、BtoBマッチング事業、節税スキーム事業など、<br>
-                  自社製品やスポーツ関連の営業新規開拓、運営サポートを行っております。
-                </p>
-                <button class="p-serviceItem__info--button"><a href="#" class="p-serviceItem__info--link">READ MORE</a></button>
-            </div>
-            <div class="p-serviceItem__imgBox">
-              <img src="assets/images/common/sales.jpg" alt="営業代理店事業" class="p-serviceItem__imgBox--img">
-            </div>
+          <div class="p-works__item">
+            <img src="assets/images/common/works.jpg" alt="作品2" class="p-works__item--img">
+            <h2 class="p-works__item--title">作品2</h2>
           </div>
-          <div class="p-serviceItem jsi-fadeIn">
-            <div class="p-serviceItem__info">
-                <p class="p-serviceItem__info--index">03</p>
-                <h3 class="p-serviceItem__info--title">ポスティング事業</h3>
-                <p class="p-serviceItem__info--subtitle">Distributing Flyers Service</p>
-                <p class="p-serviceItem__info--text">
-                  求人広告やサービス案内広告、イベント広告など幅広くご対応致します。<br>
-                  ※ポスティング物や内容によってはお断りさせて頂く場合がございます。
-                </p>
-                <button class="p-serviceItem__info--button"><a href="#" class="p-serviceItem__info--link">READ MORE</a></button>
-            </div>
-            <div class="p-serviceItem__imgBox">
-              <img src="assets/images/common/flyer.jpg" alt="ポスティング事業" class="p-serviceItem__imgBox--img">
-            </div>
+          <div class="p-works__item">
+            <img src="assets/images/common/works.jpg" alt="作品3" class="p-works__item--img">
+            <h2 class="p-works__item--title">作品3</h2>
           </div>
-        </div>
-      </section>
-      <section class="p-order" id="order">
-        <div class="p-sectionHead jsi-slideIn">
-          <h2 class="p-sectionHead__title">ORDER</h2>
-          <div class="p-sectionHead__text">ご注文の流れ</div>
-        </div>
-        <div class="p-order__wrapper">
-          <div class="p-order__item jsi-fadeIn">
-            <h3 class="p-order__item--title">WORKS<span>事例一覧</span></h3>
-            <div class="p-order__imgBox">
-              <a href="#"><img src="assets/images/common/works.jpg" alt="事例一覧" class="p-order__imgBox--img"></a>
-              <div class="p-order__imgBox--shadow"></div>
-            </div>
+          <div class="p-works__item">
+            <img src="assets/images/common/works.jpg" alt="作品4" class="p-works__item--img">
+            <h2 class="p-works__item--title">作品4</h2>
           </div>
-          <div class="p-order__item jsi-fadeIn">
-            <h3 class="p-order__item--title">FLOW<span>ご注文の流れ</span></h3>
-            <div class="p-order__imgBox">
-              <a href="#"><img src="assets/images/common/flow.jpg" alt="ご注文の流れ" class="p-order__imgBox--img"></a>
-              <div class="p-order__imgBox--shadow"></div>
-            </div>
+          <div class="p-works__item">
+            <img src="assets/images/common/works.jpg" alt="作品5" class="p-works__item--img">
+            <h2 class="p-works__item--title">作品5</h2>
+          </div>
+          <div class="p-works__item">
+            <img src="assets/images/common/works.jpg" alt="作品6" class="p-works__item--img">
+            <h2 class="p-works__item--title">作品6</h2>
+          </div>
+          <div class="p-works__item">
+            <img src="assets/images/common/works.jpg" alt="作品7" class="p-works__item--img">
+            <h2 class="p-works__item--title">作品7</h2>
+          </div>
+          <div class="p-works__item">
+            <img src="assets/images/common/works.jpg" alt="作品8" class="p-works__item--img">
+            <h2 class="p-works__item--title">作品8</h2>
+          </div>
+          <div class="p-works__item">
+            <img src="assets/images/common/works.jpg" alt="作品9" class="p-works__item--img">
+            <h2 class="p-works__item--title">作品9</h2>
           </div>
         </div>
       </section>
       <section class="p-access" id="access">
-        <div class="p-sectionHead jsi-slideIn">
+        <div class="p-sectionHead">
           <h2 class="p-sectionHead__title">ACCESS</h2>
           <div class="p-sectionHead__text">所在地</div>
         </div>
         <div class="p-access__wrapper">
-          <div class="p-access__head jsi-fadeIn">
+          <div class="p-access__head">
             <img src="assets/images/common/icon2.png" alt="会社ロゴ" class="p-access__head--logo">
             <h2 class="p-access__head--title">株式会社浩文社</h2>
           </div>
-          <div class="p-access__ItemBox jsi-fadeIn">
+          <div class="p-access__ItemBox">
             <div class="p-access__item">
               <h3 class="p-access__item--title">本社</h3>
               <p class="p-access__item--address">山口県防府市八王子1丁目22-7</p>
@@ -196,10 +123,10 @@
   <footer class="p-footer" id="footer">
     <nav class="p-footerMenu">
       <ul class="p-footerMenu__list">
-        <li class="p-footerMenu__listItem"><a href="#" class="p-footerMenu__listItem--link">ホーム</a></li>
-        <li class="p-footerMenu__listItem"><a href="#" class="p-footerMenu__listItem--link">会社概要</a></li>
-        <li class="p-footerMenu__listItem"><a href="#" class="p-footerMenu__listItem--link">事業内容</a></li>
-        <li class="p-footerMenu__listItem"><a href="#" class="p-footerMenu__listItem--link">ご注文の流れ</a></li>
+        <li class="p-footerMenu__listItem"><a href="#firstview" class="p-footerMenu__listItem--link">ホーム</a></li>
+        <li class="p-footerMenu__listItem"><a href="company.html" class="p-footerMenu__listItem--link">会社概要</a></li>
+        <li class="p-footerMenu__listItem"><a href="service.html" class="p-footerMenu__listItem--link">事業内容</a></li>
+        <li class="p-footerMenu__listItem"><a href="order.html" class="p-footerMenu__listItem--link">ご注文の流れ</a></li>
       </ul>
     </nav>
     <div class="p-footer__copy">

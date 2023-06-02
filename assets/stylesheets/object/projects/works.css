@@ -1,0 +1,47 @@
+/* 共通スタイルは外に書く */
+.p-works{
+  padding: 30px;
+  margin-top: 200px;
+  position: relative;
+}
+
+.p-works__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.p-works__item{
+  text-align: center;
+}
+
+.p-works__item--img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.p-works__item--title{
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 796px) { /* pc用スタイル */
+  .p-works__wrapper{
+    margin-top: 150px;
+  }
+
+  .p-works__item{
+    width: calc(100% / 3);
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 795px) { /* sp用スタイル */
+  .p-works__wrapper{
+    margin-top: 50px;
+  }
+
+  .p-works__item{
+    width: calc(100% / 2);
+    padding: 10px;
+  }
+}

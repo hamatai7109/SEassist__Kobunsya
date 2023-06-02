@@ -1,0 +1,63 @@
+/* 共通スタイルは外に書く */
+.p-contact{
+  padding: 30px;
+  margin-top: 250px;
+  position: relative;
+}
+
+.p-contact__wrapper{
+  margin: 200px auto 0 auto;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.p-contact__form--input,
+.p-contact__form--textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.required{
+  position: relative;
+  padding-right: 25px;
+}
+
+.required::after{
+  content: "\02748";
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #ff0000;
+}
+
+.p-contact__form--button{
+  display: block;
+  padding: 12px 30px;
+  border: 1px solid #16226B;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+  transition: all 0.3s linear;
+}
+
+.p-contact__form--button:hover {
+  background-color: #16226B;
+  color: #ffffff;
+}
+@media screen and (min-width: 796px) { /* pc用スタイル */
+
+
+}
+
+@media screen and (max-width: 795px) { /* sp用スタイル */
+
+
+}
