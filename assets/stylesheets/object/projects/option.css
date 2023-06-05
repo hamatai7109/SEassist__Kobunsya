@@ -19,30 +19,21 @@
 .p-option__item--title{
   color: #ffffff;
   text-align: center;
-  font-size: 1.3rem;
   background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
 }
 
 .p-option__item--img{
-  height: 200px;
   width: 100%;
   object-fit: cover;
 }
 
-.p-option__itemList--list{
-  font-size: 1.1rem;
-}
-
 .p-option__order{
   margin: 50px auto 0 auto;
-  width: 20%;
   text-align: center;
 }
 
 .p-option__order--link{
   display: block;
-  padding: 20px 40px;
-  font-size: 1.1rem;
   border: 1px solid #000000;
   transition: all 0.3s linear;
 }
@@ -54,11 +45,47 @@
 
 
 @media screen and (min-width: 796px) { /* pc用スタイル */
+  .p-option__item--title{
+    font-size: 1.3rem;
+  }
 
+  .p-option__item--img{
+    height: 200px;
+  }
 
+  .p-option__itemList--list{
+    font-size: 1.1rem;
+  }
+
+  .p-option__order{
+    width: 20%;
+  }
+
+  .p-option__order--link{
+    padding: 20px 40px;
+    font-size: 1.1rem;
+  }
 }
 
 @media screen and (max-width: 795px) { /* sp用スタイル */
+  .p-option__item--title{
+    font-size: 1.0rem;
+  }
 
+  .p-option__item--img{
+    height: 150px;
+  }
 
+  .p-option__itemList--list{
+    font-size: 0.9rem;
+  }
+
+  .p-option__order{
+    width: 30%;
+  }
+  
+  .p-option__order--link{
+    padding: 15px 20px;
+    font-size: 1.0rem;
+  }
 }
