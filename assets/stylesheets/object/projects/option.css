@@ -1,0 +1,64 @@
+/* 共通スタイルは外に書く */
+.p-option{
+  margin-top: 150px;
+  padding: 50px;
+  position: relative;
+}
+
+.p-option__inner{
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.p-option__item{
+  padding: 10px;
+  width: calc(100%/2);
+}
+
+.p-option__item--title{
+  color: #ffffff;
+  text-align: center;
+  font-size: 1.3rem;
+  background: linear-gradient(90deg, rgb(22, 135, 237), rgb(20, 55, 90));
+}
+
+.p-option__item--img{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.p-option__itemList--list{
+  font-size: 1.1rem;
+}
+
+.p-option__order{
+  margin: 50px auto 0 auto;
+  width: 20%;
+  text-align: center;
+}
+
+.p-option__order--link{
+  display: block;
+  padding: 20px 40px;
+  font-size: 1.1rem;
+  border: 1px solid #000000;
+  transition: all 0.3s linear;
+}
+
+.p-option__order--link:hover{
+  background-color: #16226B;
+  color: #ffffff;
+}
+
+
+@media screen and (min-width: 796px) { /* pc用スタイル */
+
+
+}
+
+@media screen and (max-width: 795px) { /* sp用スタイル */
+
+
+}

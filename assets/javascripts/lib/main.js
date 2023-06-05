@@ -1,7 +1,7 @@
 // ローディング
 window.addEventListener('load',function(){
   document.getElementById('jsi-load').classList.add('hide')
-  document.getElementById('jsi-load__logo').classList.add('hide')  
+  document.getElementById('jsi-load__logo').classList.add('hide')
 })
 
 // ページ内リンクをスムーズにする
