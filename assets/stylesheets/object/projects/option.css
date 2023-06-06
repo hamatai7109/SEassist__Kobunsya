@@ -81,11 +81,11 @@
   }
 
   .p-option__order{
-    width: 30%;
+    width: 50%;
   }
   
   .p-option__order--link{
-    padding: 15px 20px;
-    font-size: 1.0rem;
+    padding: 15px;
+    font-size: 0.9rem;
   }
 }
