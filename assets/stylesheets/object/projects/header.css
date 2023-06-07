@@ -75,7 +75,7 @@
   }
 }
 @media screen and (max-width: 795px) { /* sp用スタイル */
-.p-header{
-  display: none;
-}
+  .p-header{
+    display: none;
+  }
 }

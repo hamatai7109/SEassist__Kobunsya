@@ -5,6 +5,10 @@
   position: relative;
 }
 
+.p-order__detail{
+  margin-top: 250px;
+}
+
 .p-order__wrapper{
   margin-top: 100px;
 }
@@ -61,10 +65,6 @@
 }
 
 @media screen and (max-width: 795px) { /* sp用スタイル */
-  .p-order__detail{
-    margin-top: 250px;
-  }
-
   .p-order__item:not(:first-of-type){
     margin-top: 60px;
   }

@@ -121,4 +121,9 @@
   .p-flow__item:not(:first-of-type){
     margin-top: 180px;
   }
+
+  .p-flow__step--img{
+    margin: 0 auto;
+    height: 300px;
+  }
 }

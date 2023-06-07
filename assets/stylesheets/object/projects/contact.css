@@ -55,12 +55,10 @@
   .p-contact{
     margin-top: 300px;
   }
-
 }
 
 @media screen and (max-width: 795px) { /* sp用スタイル */
   .p-contact{
     margin-top: 350px;
   }
-
 }

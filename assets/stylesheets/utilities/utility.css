@@ -1,5 +1,7 @@
 .u-hidden { display: none !important; }
 
+.u-opacity{opacity: 0;}
+
 @media screen and (min-width: 796px) { /* pc */
   .u-hidden-pc {
     display: none !important;
