@@ -1,116 +1,182 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <meta name="expires" content="604800">
-  <meta name="format-detection" content="email=no,telephone=no,address=no">
-  <title>株式会社浩文社</title>
-  <meta name="description" content="株式会社浩文社の会社概要です。">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif+JP&display=swap" rel="stylesheet">  
-  <link rel="icon" href="assets/images/common/favicon.ico">
-  <link rel="stylesheet" href="assets/stylesheets/app.css">
-</head>
-<body>
-  <section class="p-firstview" id="firstview">
-    <header class="p-header">
-      <div class="p-header__inner">
-        <div class="p-header__logo"><img src="assets/images/common/icon1.jpg" alt="会社ロゴ" class="p-header__logo--img"></div>
-        <div class="p-header__title"><h1 class="p-header__title--text">株式会社浩文社</h1></div>  
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <meta name="expires" content="604800" />
+    <meta name="format-detection" content="email=no,telephone=no,address=no" />
+    <title>株式会社濵野印刷</title>
+    <meta name="description" content="株式会社濵野印刷の会社概要です。" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif+JP&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/images/common/favicon.ico" />
+    <link rel="stylesheet" href="assets/stylesheets/app.css" />
+  </head>
+  <body>
+    <section class="p-firstview" id="firstview">
+      <header class="p-header">
+        <div class="p-header__inner">
+          <div class="p-header__logo">
+            <img
+              src="assets/images/common/logo.png"
+              alt="会社ロゴ"
+              class="p-header__logo--img"
+            />
+          </div>
+          <div class="p-header__title">
+            <h1 class="p-header__title--text">株式会社濵野印刷</h1>
+          </div>
+        </div>
+        <div class="p-header__button">
+          <a href="#firstview"
+            ><button class="p-header__button--circle">
+              <span class="p-header__button--triangle">&#9651;</span>
+            </button></a
+          >
+          <p class="p-header__button--text">TOP</p>
+        </div>
+      </header>
+      <div class="p-menu">
+        <div class="p-menu__overlay" id="jsi-overlay"></div>
+        <div class="p-menu__buffer"></div>
+        <!-- グローバルメニュー -->
+        <nav class="p-menuNav" id="jsi-menu">
+          <ul class="p-menuList">
+            <li class="p-menuItem">
+              <a href="index.html" class="p-menuItem__link">ホーム</a
+              ><span class="p-menuItem__link--sub">HOME</span>
+            </li>
+            <li class="p-menuItem">
+              <a href="company.html" class="p-menuItem__link">会社概要</a
+              ><span class="p-menuItem__link--sub">COMPANY</span>
+            </li>
+            <li class="p-menuItem">
+              <a href="service.html" class="p-menuItem__link">事業内容</a
+              ><span class="p-menuItem__link--sub">SERVICE</span>
+            </li>
+            <li class="p-menuItem">
+              <a href="order.html" class="p-menuItem__link">ご注文の流れ</a
+              ><span class="p-menuItem__link--sub">ORDER</span>
+            </li>
+          </ul>
+        </nav>
+        <!-- ハンバーガーメニュー -->
+        <div class="p-menu__hamburger u-hidden-pc">
+          <button
+            class="p-menu__hamburger--button u-hidden-pc"
+            id="jsi-hamburger"
+          >
+            <span class="p-menu__hamburger--bar"></span>
+            <span class="p-menu__hamburger--bar"></span>
+            <span class="p-menu__hamburger--bar"></span>
+          </button>
+        </div>
       </div>
-      <div class="p-header__button">
-        <a href="#firstview"><button class="p-header__button--circle"><span class="p-header__button--triangle">&#9651;</span></button></a>
-        <p class="p-header__button--text">TOP</p>
+    </section>
+    <main>
+      <div class="l-main">
+        <section class="p-company">
+          <div class="p-sectionHead">
+            <h2 class="p-sectionHead__title">COMPANY</h2>
+            <div class="p-sectionHead__text">会社概要</div>
+          </div>
+          <dl class="p-company__table">
+            <div class="p-company__bg"></div>
+            <dt class="p-company__table--title">社名</dt>
+            <dd class="p-company__table--text">株式会社濵野印刷</dd>
+            <dt class="p-company__table--title">設立</dt>
+            <dd class="p-company__table--text">1998年5月</dd>
+            <dt class="p-company__table--title">創業者</dt>
+            <dd class="p-company__table--text">濵野次郎</dd>
+            <dt class="p-company__table--title">代表者</dt>
+            <dd class="p-company__table--text">濵野太郎</dd>
+            <dt class="p-company__table--title">従業員数</dt>
+            <dd class="p-company__table--text">4人</dd>
+            <dt class="p-company__table--title">資本金</dt>
+            <dd class="p-company__table--text">1,000万円</dd>
+          </dl>
+        </section>
+        <section class="p-access" id="access">
+          <div class="p-sectionHead">
+            <h2 class="p-sectionHead__title">ACCESS</h2>
+            <div class="p-sectionHead__text">所在地</div>
+          </div>
+          <div class="p-access__wrapper">
+            <div class="p-access__head">
+              <img
+                src="assets/images/common/logo.png"
+                alt="会社ロゴ"
+                class="p-access__head--logo"
+              />
+              <h2 class="p-access__head--title">株式会社濵野印刷</h2>
+            </div>
+            <div class="p-access__ItemBox">
+              <div class="p-access__item">
+                <h3 class="p-access__item--title">本社</h3>
+                <p class="p-access__item--address">福岡市博多区東公園7番7号</p>
+                <iframe
+                  class="p-access__item--map"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6611.054813549992!2d131.566743!3d34.055992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3544928c87ae5669%3A0xcc4d8dfccd3401a7!2z44CSNzQ3LTAwMzcg5bGx5Y-j55yM6Ziy5bqc5biC5YWr546L5a2Q77yR5LiB55uu77yS77yS4oiS77yX!5e0!3m2!1sja!2sjp!4v1685323034074!5m2!1sja!2sjp"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+              <div class="p-access__item">
+                <h3 class="p-access__item--title">営業所</h3>
+                <p class="p-access__item--address">大阪市中央区大手前2丁目-8</p>
+                <iframe
+                  class="p-access__item--map"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6601.934889897126!2d131.472477!3d34.17275!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3544971835dfbcb5%3A0xaab10a69b325361c!2z44CSNzUzLTAwNDYg5bGx5Y-j55yM5bGx5Y-j5biC5pys55S677yR5LiB55uu77yT4oiS77yY!5e0!3m2!1sja!2sjp!4v1685323123010!5m2!1sja!2sjp"
+                  allowfullscreen=""
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-    </header>
-    <div class="p-menu">
-      <div class="p-menu__overlay" id="jsi-overlay"></div>
-      <div class="p-menu__buffer"></div>
-      <!-- グローバルメニュー -->
-      <nav class="p-menuNav" id="jsi-menu">
-        <ul class="p-menuList">
-          <li class="p-menuItem"><a href="index.html" class="p-menuItem__link">ホーム</a><span class="p-menuItem__link--sub">HOME</span></li>
-          <li class="p-menuItem"><a href="company.html" class="p-menuItem__link">会社概要</a><span class="p-menuItem__link--sub">COMPANY</span></li>
-          <li class="p-menuItem"><a href="service.html" class="p-menuItem__link">事業内容</a><span class="p-menuItem__link--sub">SERVICE</span></li>
-          <li class="p-menuItem"><a href="order.html" class="p-menuItem__link">ご注文の流れ</a><span class="p-menuItem__link--sub">ORDER</span></li>
+    </main>
+    <footer class="p-footer" id="footer">
+      <nav class="p-footerMenu">
+        <ul class="p-footerMenu__list">
+          <li class="p-footerMenu__listItem">
+            <a href="index.html" class="p-footerMenu__listItem--link">ホーム</a>
+          </li>
+          <li class="p-footerMenu__listItem">
+            <a href="company.html" class="p-footerMenu__listItem--link"
+              >会社概要</a
+            >
+          </li>
+          <li class="p-footerMenu__listItem">
+            <a href="service.html" class="p-footerMenu__listItem--link"
+              >事業内容</a
+            >
+          </li>
+          <li class="p-footerMenu__listItem">
+            <a href="order.html" class="p-footerMenu__listItem--link"
+              >ご注文の流れ</a
+            >
+          </li>
         </ul>
       </nav>
-      <!-- ハンバーガーメニュー -->
-      <div class="p-menu__hamburger u-hidden-pc">
-        <button class="p-menu__hamburger--button u-hidden-pc" id="jsi-hamburger">
-          <span class="p-menu__hamburger--bar"></span>
-          <span class="p-menu__hamburger--bar"></span>
-          <span class="p-menu__hamburger--bar"></span>
-        </button>
+      <div class="p-footer__copy">
+        <p class="p-footer__copy--text">&copy;2023 hamano-print.co.jp</p>
       </div>
-    </div>
-  </section>
-  <main>
-    <div class="l-main">
-      <section class="p-company">
-        <div class="p-sectionHead">
-          <h2 class="p-sectionHead__title">COMPANY</h2>
-          <div class="p-sectionHead__text">会社概要</div>
-        </div>
-        <dl class="p-company__table">
-          <div class="p-company__bg"></div>
-          <dt class="p-company__table--title">社名</dt>
-          <dd class="p-company__table--text">株式会社浩文社</dd>
-          <dt class="p-company__table--title">設立</dt>
-          <dd class="p-company__table--text">1948年11月</dd>
-          <dt class="p-company__table--title">創業者</dt>
-          <dd class="p-company__table--text">宮本勝人</dd>
-          <dt class="p-company__table--title">代表者</dt>
-          <dd class="p-company__table--text">宮本朋枝</dd>
-          <dt class="p-company__table--title">従業員数</dt>
-          <dd class="p-company__table--text">4人</dd>
-          <dt class="p-company__table--title">資本金</dt>
-          <dd class="p-company__table--text">1,000万円</dd>
-        </dl>
-      </section>
-      <section class="p-access" id="access">
-        <div class="p-sectionHead">
-          <h2 class="p-sectionHead__title">ACCESS</h2>
-          <div class="p-sectionHead__text">所在地</div>
-        </div>
-        <div class="p-access__wrapper">
-          <div class="p-access__head">
-            <img src="assets/images/common/icon2.png" alt="会社ロゴ" class="p-access__head--logo">
-            <h2 class="p-access__head--title">株式会社浩文社</h2>
-          </div>
-          <div class="p-access__ItemBox">
-            <div class="p-access__item">
-              <h3 class="p-access__item--title">本社</h3>
-              <p class="p-access__item--address">山口県防府市八王子1丁目22-7</p>
-              <iframe class="p-access__item--map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6611.054813549992!2d131.566743!3d34.055992!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3544928c87ae5669%3A0xcc4d8dfccd3401a7!2z44CSNzQ3LTAwMzcg5bGx5Y-j55yM6Ziy5bqc5biC5YWr546L5a2Q77yR5LiB55uu77yS77yS4oiS77yX!5e0!3m2!1sja!2sjp!4v1685323034074!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="p-access__item">
-              <h3 class="p-access__item--title">営業所</h3>
-              <p class="p-access__item--address">山口県山口市本町1丁目3-8</p>
-              <iframe class="p-access__item--map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6601.934889897126!2d131.472477!3d34.17275!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3544971835dfbcb5%3A0xaab10a69b325361c!2z44CSNzUzLTAwNDYg5bGx5Y-j55yM5bGx5Y-j5biC5pys55S677yR5LiB55uu77yT4oiS77yY!5e0!3m2!1sja!2sjp!4v1685323123010!5m2!1sja!2sjp" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  </main>
-  <footer class="p-footer" id="footer">
-    <nav class="p-footerMenu">
-      <ul class="p-footerMenu__list">
-        <li class="p-footerMenu__listItem"><a href="index.html" class="p-footerMenu__listItem--link">ホーム</a></li>
-        <li class="p-footerMenu__listItem"><a href="company.html" class="p-footerMenu__listItem--link">会社概要</a></li>
-        <li class="p-footerMenu__listItem"><a href="service.html" class="p-footerMenu__listItem--link">事業内容</a></li>
-        <li class="p-footerMenu__listItem"><a href="order.html" class="p-footerMenu__listItem--link">ご注文の流れ</a></li>
-      </ul>
-    </nav>
-    <div class="p-footer__copy">
-      <p class="p-footer__copy--text">&copy;2023 ドメイン名.co.jp</p>
-    </div>
-  </footer>
-  <script src="assets/javascripts/lib/hamburger.js" type="text/javascript"></script>
-  <script src="assets/javascripts/lib/main.js" type="text/javascript"></script>
-</body>
+    </footer>
+    <script
+      src="assets/javascripts/lib/hamburger.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="assets/javascripts/lib/main.js"
+      type="text/javascript"
+    ></script>
+  </body>
 </html>

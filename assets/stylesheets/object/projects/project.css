@@ -19,7 +19,7 @@
 }
 
 .p-project__titleBox{
-  margin-top: 150px;
+  margin-top: 150px; 
   display: flex;
   align-items: center;
   gap: 20px;
